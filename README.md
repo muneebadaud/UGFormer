@@ -1,12 +1,7 @@
 # Uncertainty-Guided Transformer UIE
 
-A complete PyTorch project for underwater image enhancement with:
+A complete PyTorch project for underwater image enhancement with: deterministic transformer-based restoration, pixel-wise uncertainty map and uncertainty-guided training loss.
 
-- deterministic transformer-based restoration
-- pixel-wise uncertainty map
-- uncertainty-guided training loss
-- paired image dataset loader
-- training / evaluation / inference scripts
 
 ## Dataset layout
 
@@ -59,9 +54,3 @@ python infer.py \
   --device cuda:0 \
   --save_uncertainty
 ```
-
-## Notes
-
-- The model is deterministic at inference: no sampling.
-- The uncertainty head is used only as a confidence signal.
-- You can tune the balance between reconstruction and uncertainty regularization in `train.py`.
