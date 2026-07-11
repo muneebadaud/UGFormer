@@ -54,3 +54,5 @@ python infer.py \
   --device cuda:0 \
   --save_uncertainty
 ```
+
+Download the checkpoint from https://drive.google.com/file/d/1OiaxbLW93HaYUxyn7G_buVgSJEFHY-5d/view?usp=sharing and place it in checkpoint folder.
