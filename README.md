@@ -28,7 +28,7 @@ The model follows a hierarchical encoder-decoder design. The encoder applies tra
 
 The model is trained and evaluated on paired underwater image datasets. Supported benchmarks:
 
-- **LSUI** — Large-Scale Underwater Image dataset (3,600 train / 900 val pairs). [[Download]](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html)
+- **LSUI** — Large-Scale Underwater Image dataset. [[Download]](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html) https://drive.google.com/drive/folders/14BWwtYWCRjWob-jf7Rloj2hSND_oPQdr?usp=sharing
 - **UIEB** — Underwater Image Enhancement Benchmark (890 reference images). [[Download]](https://li-chongyi.github.io/proj_benchmark.html)
 
 Place paired images in this structure:
