@@ -11,7 +11,7 @@ This repository contains the official PyTorch implementation of underwater image
 The key contributions are:
 
 1. A **Reliability Refine** module using per-pixel aleatoric uncertainty estimates as spatial gates for feature-level refinement.
-2. ⁠An **uncertainty-guided training objective** that jointly supervises image reconstruction quality and the calibration of the predicted         confidence map.
+2. ⁠An **uncertainty-guided training objective** that jointly supervises image reconstruction quality and the calibration of the predicted confidence map.
 3. ⁠An **intrinsic explainable output** in the form of a pixel-aligned reliability map.
 
 On standard benchmarks the model achieves **28.37 dB PSNR** and **0.98 SSIM**.
