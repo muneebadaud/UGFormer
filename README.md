@@ -20,7 +20,7 @@ On standard benchmarks the model achieves **28.37 dB PSNR** and **0.98 SSIM**.
 
 Overview of the proposed architecture:
 
-![fig1.pdf](https://github.com/user-attachments/files/30385046/fig1.pdf)
+<img width="1770" height="691" alt="fig1" src="https://github.com/user-attachments/assets/d1b5f630-6d7d-49b1-9945-21130d8d2c39" />
 
 The model follows a hierarchical encoder-decoder design. The encoder applies transformer blocks at three spatial scales with stride-2 downsampling. The decoder mirrors this with PixelShuffle upsampling and skip-connection fusion.
 
