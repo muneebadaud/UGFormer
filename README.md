@@ -99,7 +99,7 @@ checkpoints/
   
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+This project is licensed under the Apache License 2.0. See the LICENSE file for more information.
 
 ## Citation
 
@@ -107,10 +107,10 @@ If you use this code or the pre-trained model, please cite:
 
 ```bibtex
 @article{ugformer2025,
-  title   = {Confidence-Guided Underwater Image Enhancement with a Deterministic Transformer},
-  author  = {[Author Names]},
+  title   = {Uncertainty Guided Spatial Transformer for Underwater Image Enhancemen},
+  author  = {[Waseem Iqbal, Dawood Al Abri, Muneeba Daud, Hammad Afzal, Faisal Iradat, and Ahmad Cheema]},
   journal = {[Venue]},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
