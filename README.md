@@ -28,8 +28,8 @@ The model follows a hierarchical encoder-decoder design. The encoder applies tra
 
 The model is trained and evaluated on paired underwater image datasets. Supported benchmarks:
 
-- **LSUI** — Large-Scale Underwater Image dataset. [[Download]](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html) https://drive.google.com/drive/folders/14BWwtYWCRjWob-jf7Rloj2hSND_oPQdr?usp=sharing
-- **UIEB** — Underwater Image Enhancement Benchmark (890 reference images). [[Download]](https://li-chongyi.github.io/proj_benchmark.html)
+We used [[LSUI]](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html) Large-Scale Underwater Image dataset 4500 paied images dataset for the training and 504 paired test images. Available for download at: https://drive.google.com/drive/folders/14BWwtYWCRjWob-jf7Rloj2hSND_oPQdr?usp=sharing
+**UIEB** — Underwater Image Enhancement Benchmark (890 reference images). [[Download]](https://li-chongyi.github.io/proj_benchmark.html)
 
 Place paired images in this structure:
 
@@ -93,10 +93,9 @@ checkpoints/
 
 ## References
 
-- [UIEB benchmark](https://li-chongyi.github.io/proj_benchmark.html) — An Underwater Image Enhancement Benchmark Dataset and Beyond (TIP 2020)
 - [LSUI dataset](https://lintaopeng.github.io/_pages/UIE%20Project%20Page.html) — Large-Scale Underwater Image dataset
+- [UIEB benchmark](https://li-chongyi.github.io/proj_benchmark.html) — An Underwater Image Enhancement Benchmark Dataset and Beyond (TIP 2020)
 
-  
 ## License
 
 This project is licensed under the Apache License 2.0. See the LICENSE file for more information.
